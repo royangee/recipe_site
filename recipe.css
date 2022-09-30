@@ -160,9 +160,10 @@ table.instructions tr{
 @media only screen and (min-width: 768px) {
     div.content {
         /* only set what you want to be changed. The rest can be the same as the initial div.content class so can be omitted. */
-        margin: 60px 10% 80px 10%; 
-        padding: 0px 10% 30px 10%;
+        margin: 60px 8% 80px 8%; 
+        padding: 0px 5% 30px 5%;
         min-width: 360px;
+        max-width: 650px;
     }
 
     table.info {
@@ -185,4 +186,18 @@ table.instructions tr{
         margin-right: 10%;
     }
 
+    div.col2 {
+        float: right;
+    }
+
   }
+
+/* For very large screens: */
+@media only screen and (min-width:900px) {
+    div.content {
+        /* only set what you want to be changed. The rest can be the same as the initial div.content class so can be omitted. */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 650px;
+    }
+}
